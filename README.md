@@ -4,9 +4,9 @@ This repo contains five Colab notebooks that satisfy the assignment tasks (a)–
 
 ## Quick Index
 
-- Colab1 — Full finetune small model (SmolLM2 135M) satisfies (a). Shows raw full parameter update, synthetic chat dataset, chat template creation, inference, optional Hub push.
-  - Notebook: `colab1_full_finetune_smollm2.ipynb`  
-    Open in Colab: https://colab.research.google.com/github/ArshanBhanage/UnSloth.ai-FineTuning/blob/main/colab1_full_finetune_smollm2.ipynb  
+- Colab1 — `Mistral_Full_Finetuning_colab_1_.ipynb`: Full finetuning Mistral‑7B variant with SFT; heavier than LoRA—use if you have more VRAM.
+  - Notebook: `Mistral_Full_Finetuning_colab_1_.ipynb`  
+    Open in Colab: https://colab.research.google.com/github/ArshanBhanage/UnSloth.ai-FineTuning/blob/main/Mistral_Full_Finetuning_colab_1_.ipynb  
     Video: https://youtu.be/KydipkXbQWg
 
 - Colab2 — LoRA fine-tune (parameter efficient) on Mistral 7B addresses (b). Mirrors the full finetune flow with adapters; optionally swap in SmolLM2 with LoRA.
@@ -30,10 +30,6 @@ This repo contains five Colab notebooks that satisfy the assignment tasks (a)–
     Video: https://youtu.be/vKrDBvEAEvo
 
 ---
-
-## Extra Notebook (reference)
-
-- `Mistral_Full_Finetuning_colab_1_.ipynb`: Full finetuning Mistral‑7B variant with SFT; heavier than LoRA—use if you have more VRAM.
 
 ## Assignment (for reference)
 
